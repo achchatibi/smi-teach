@@ -1,0 +1,167 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body{
+	text-align:center;
+	background-color: black;
+	width:100%;
+}
+
+header{
+	width:100%;
+	background-color:blue;
+	box-shadow: 0px 4px 1px white;
+}
+
+header img{
+	background-color:black;
+	margin-top:3px;
+	border:2px gold solid;
+	border-radius:5px;
+}
+
+nav{
+	background-color:blue;
+	padding:5px;
+	margin-top:2px;
+	text-align:center;
+}
+
+nav ul li{
+	display:inline-block;
+	font-size:25px;
+}
+
+nav ul li a{
+	margin:15px;
+	color:white;
+	font-weight:bold;
+	padding:10px;
+}
+
+nav ul li a:hover{
+	background-color:white;
+	color:blue;
+	padding:6.5px;
+	border-radius:5px;
+}
+
+span{
+	color:blue;
+	margin-left:250px;
+	font-size:22px;
+	font-weight:bold;
+}
+
+#ex{
+	color:blue;
+	margin-left:250px;
+	font-size:22px;
+	font-weight:bold;
+}
+
+.cc{
+	display:inline-flex;
+}
+
+.cc .ss{
+	margin:60px;
+	padding:20px;
+	margin-top:60px;
+    background-color:white;
+	border:2px black solid;
+	border-radius:10px;
+	box-shadow: 7px 7px 0px gold;
+}
+
+.cc .ss h1{
+	color:black;
+	box-shadow: 0px 2px 2px black;
+}
+
+.cc .ss aside{
+	margin-top:-25px;
+	background-color:gold;
+	border-radius:100px;
+	box-shadow: 0px 2px 2px black;
+	width:100%;
+}
+
+.cc .ss aside h2{
+	background-color:blue;
+	box-shadow: 0px 2px 2px black;
+	color:white;
+	text-align:center;
+	width:80%;
+	border-radius:100px;
+	margin-top:40px;
+}
+
+.h-2{
+	color:blue;
+	text-decoration:underline;
+	margin-top:10px;
+}
+
+.cc .ss section{
+	margin-top:20px;
+	text-align:center;
+	display:inline-flex;
+}
+
+.cc .ss section .smi h3 a{
+	color:black;
+	box-shadow:1px 0px 0px black;
+	font-size:22px;
+	margin:20px;
+	padding:7px;
+	font-weight:bold;
+	border-radius:0px;
+}
+
+.cc .ss section .smi h3 a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+
+#les{
+	margin-top:20px;
+}
+
+#course{
+	margin-top:-2px;
+}
+
+footer{
+	background-color:blue;
+	color:white;
+	position:absolute;
+	width:100%;
+}
+
+footer h1{
+	box-shadow: 0px 1px 1px white;
+	text-align:left;
+	font-size:22px;
+}
+
+footer li{
+	font-size:20px;
+	margin-top:5px;
+}
+
+footer p{
+	background-color:white;
+	color:black;
+	font-size:23px;
+	font-weight:bold;
+	margin-top:7px;
+}
